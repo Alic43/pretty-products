@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: 'Karma', serif, 'Oswald', sans-serif;
   line-height: 1.5;
-  background-color: #f5f2f0;
 }
 
 *, *::before, *::after {
