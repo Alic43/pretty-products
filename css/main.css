@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: 'Karma', serif,'Oswald', sans-serif;
   line-height: 1.5;
-  background-color: #f5f2f0;
 }
 
 *, *::before, *::after {
@@ -17,13 +16,8 @@ img {
   width: 100%;
 }
 
-h1 {
-  padding-left: .5em;
-  padding-top: .5em;
-}
-
-h1, h2 {
-  font-family: "Denk One";
+h2 {
+  font-family: "Oswald";
   color: #623b0c;
   margin-top: 0;
 }
@@ -33,13 +27,9 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin: 0;
-  padding: .5em .75em .6em;
 }
 
 li {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   background-color: #ede3db;
   padding: 1rem;
   border: 2px solid #623b0c;
