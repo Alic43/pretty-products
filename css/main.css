@@ -57,11 +57,12 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .cart {
   grid-area: c;
   background-color: #6f00e7;
   color: #fff;
-  z-index:
+  z-index: 1;
 }
