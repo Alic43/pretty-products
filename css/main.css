@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karma', serif, 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   line-height: 1.5;
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 h2 {
-  font-family: "Oswald";
+  font-family: Oswald;
   color: #6f00e7;
   font-size: 2rem;
   text-align: center;
@@ -41,11 +41,27 @@ ol li {
 }
 
 p {
-  font-family: "Karma";
+  font-family: Karma;
   font-size: 1.4rem;
   text-align: center;
 }
 
 ul li {
  border: none;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart {
+  grid-area: c;
+  background-color: #6f00e7;
+  color: #fff;
+  z-index:
 }
