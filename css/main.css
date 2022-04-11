@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 *, *::before, *::after {
@@ -47,10 +48,10 @@ p {
 }
 
 ul li {
- border: none;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nav {
